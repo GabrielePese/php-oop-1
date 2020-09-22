@@ -7,8 +7,9 @@ class User {
     public $cognome;
     public $mail;
     public $numero;
+    public $foto;
 
-    public function __construct($nome, $cognome, $mail, $numero){
+    public function __construct($nome, $cognome, $mail, $numero, $foto="foto"){
         $this -> nome = $nome;
         $this -> cognome = $cognome;
         $this -> mail = $mail;
